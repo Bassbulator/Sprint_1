@@ -9,7 +9,7 @@ if 'task_007' in new_tasks:
 
 
 if new_tasks:
-    new_priority_task = new_tasks[-1]
-    print("Задача с высшим приоритетом:", new_priority_task)
+    new_priority_task = new_tasks[-1] # Беру последний элемент списка
+    print("Задача с высшим приоритетом:", new_priority_task) # Вывожу задачу с наивысшим приоритетом
 
 print(new_tasks)
