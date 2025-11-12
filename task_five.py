@@ -12,7 +12,7 @@ class TestCase:
 
     def delete_step(self, step_number):
         if step_number in self.steps:
-            self.steps.pop(step_number)
+            del self.steps[step_number]
 
 
     def set_result(self, result):
